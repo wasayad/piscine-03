@@ -95,8 +95,8 @@ class _TodayState extends State<Today> {
         now = DateTime.parse(weather.dayWeather.hours[i]);
         formatted = formatter.format(now);
         rowChild.add(SizedBox(
-            height: MediaQuery.of(context).size.height / 3,
-            width: MediaQuery.of(context).size.width,
+            height: 145,
+            width: 150,
             child: Column(children: [
               Expanded(
                   child: Text(
